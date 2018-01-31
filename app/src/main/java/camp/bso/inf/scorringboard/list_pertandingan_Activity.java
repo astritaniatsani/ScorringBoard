@@ -2,7 +2,6 @@ package camp.bso.inf.scorringboard;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.
 
 import java.util.LinkedList;
 
