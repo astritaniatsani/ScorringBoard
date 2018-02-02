@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context="camp.bso.inf.scorringboard.ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40sp"
+        android:text="MY PROFILE"
+        />
+    <ImageView
+        android:id="@+id/sumberpersib"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/prof"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:background="#ffff"
+        android:text="Nama  : Astri Tania Tsani" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:background="#ffff"
+        android:text="Alamat  : Kp.Sukasari Rt 01 Rw 02 Cinunuk, Bandung" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:background="#ffff"
+        android:text="" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:background="#ffff"
+        android:text="Android" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:background="#ffff"
+        android:text="Pertama kali mempelajari Android di acara Indonesia Android Kejar pada tahun 2017, saya mempelajari android ini kurang dari 6 bulan. Alasan mengapa saya ingin mengikuti pelatihan ini karena saya tertarik dengan android ini dan ingin membuat aplikasi sendiri dan dapat mengupload nya ke GooglePlay ^_^" />
+
+</LinearLayout>

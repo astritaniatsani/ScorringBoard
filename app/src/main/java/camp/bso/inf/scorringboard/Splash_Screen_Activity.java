@@ -19,7 +19,7 @@ private static int SPLASH_TIME_OUT=3000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(Splash_Screen_Activity.this, MainActivity.class);
+                Intent i = new Intent(Splash_Screen_Activity.this, NavBarPertandingan.class);
                 startActivity(i);
                 //close this activity
                 finish();

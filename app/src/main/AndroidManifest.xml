@@ -19,7 +19,13 @@
         <activity android:name=".PersibActivity" />
         <activity android:name=".PersijaActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".list_pertandingan_Activity"></activity>
+        <activity android:name=".list_pertandingan_Activity" />
+        <activity
+            android:name=".NavBarPertandingan"
+            android:label="@string/title_activity_nav_bar_pertandingan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Profile2Activity" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
